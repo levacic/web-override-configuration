@@ -1,0 +1,50 @@
+/*
+ * These modify the height and layout of the popup menus for editing the labels
+ * of emails - basically, they increase the height a lot, which is useful for
+ * people that have many labels. They also reduce the font-size to make those
+ * lists fit more items, and look better.
+ */
+
+.J-M {
+  max-height: 800px !important;
+  font-size: 10px !important;
+}
+
+.aXjCH::-webkit-scrollbar,
+.J-M::-webkit-scrollbar {
+  width: 20px !important;
+}
+
+.J-M-Jz {
+  max-height: 800px !important;
+}
+
+/*
+ * These rules modify the colors of the labels in the left-hand menu, when there
+ * are unread messages in them, as well as the currently selected label. The
+ * colors are optimized for a dark Gmail color scheme, because the bolded white
+ * labels are barely indistinguishable from the non-bolded ones.
+ *
+ * The `a` element selector was added to increase specificity, because Gmail's
+ * built-in styles have `!important`, so they need to be overriden *even more*.
+ */
+
+/* A label containing unread messages */
+.n1 a.n0 {
+  color: #6af !important;
+}
+
+/* The currently selected label */
+.nZ.TO a.n0 {
+  color: #9df !important;
+}
+
+/*
+ * These are all the labels/folders in the sidebar on the left - their font-size
+ * has been reduced so that more of them could fit on the screen (not to mention
+ * that it looks prettier!)
+ */
+
+.nM {
+  font-size: 60% !important;
+}
