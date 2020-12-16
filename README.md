@@ -1,6 +1,6 @@
 # Web Override configuration
 
-These are backed up, versioned-controlled override configurations for the [Web Override](https://weboverride.com/) Chrome extension.
+These are backed up, version-controlled override configurations for the [Web Override](https://weboverride.com/) Chrome extension.
 
 Unfortunately, it seems that this extension is [no longer available](https://chrome.google.com/webstore/detail/web-override/lllllobkincmdnjfkbknjacacmnlajll), which seems to happen somewhat often with these kinds of extensions. Its source code is [still available](https://github.com/dcohenb/WebOverride), though, so it's possible to rebuild it manually if needed.
 
